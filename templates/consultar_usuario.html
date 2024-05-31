@@ -61,7 +61,6 @@
             <label for="id_usuario">ID Usuario</label>
             <input type="text" id="id_usuario" name="id_usuario" required>
             <button type="submit">Consultar</button>
-            <a href="{{ url_for('index') }}"><button type="button">Volver al Inicio</button></a>
         </form>
 
         {% if usuario %}
@@ -116,7 +115,7 @@
             {% endfor %}
         </div>
         {% endif %}
+        <a href="{{ url_for('index') }}"><button type="button">Volver al Inicio</button></a>
     </div>
-    <a href="{{ url_for('index') }}"><button type="button">Volver al Inicio</button></a>
 </body>
 </html>
