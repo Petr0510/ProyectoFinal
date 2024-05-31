@@ -5,12 +5,12 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 import psycopg2
 import SecretConfig
 """ Define el directorio base del proyecto"""
-base_dir = os.path.abspath(os.path.dirname(_file_))
+base_dir = os.path.abspath(os.path.dirname(__file__))
 """Configura el directorio de plantillas relativo al directorio base"""
 template_dir = os.path.join(base_dir, '../templates')
 
 """Crea la aplicación Flask"""
-app = Flask(_name_, template_folder=template_dir)
+app = Flask(__name__, template_folder=template_dir)
 app.secret_key = 'your_secret_key'
 
 """Función para conectar a la base de datos"""
@@ -194,5 +194,5 @@ def eliminar_usuario():
 
     return render_template('eliminar_usuario.html')
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     app.run(debug=True)
