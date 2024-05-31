@@ -5,6 +5,10 @@
 - Santiago Rodriguez.
 - Pablo Troncoso.
 
+## Link del video de la explicación
+https://youtu.be/kUxJonAG-ZM POR MEDIO DE VS
+https://youtu.be/2JF2CTj2xw0 POR CONSOLA
+
 ## ¿Qué es y para qué es?
 
 Una calculadora de impuestos, tiene como propósito principal automatizar y simplificar el proceso de preparación y presentación de las declaraciones de impuestos. Esto puede ayudar a reducir errores y minimizar el tiempo necesario para completar las tareas relacionadas con los impuestos.
