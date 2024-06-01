@@ -88,7 +88,9 @@ Tener en cuenta: primeramente debe descargar el repositorio, para hacerlo ten en
 
 3. Abre una terminal en la carpeta donde se encuentran los archivos del programa.
 
-    `cd Entrega5-Calculadora-Impuestos`
+    `cd C:\Users\usuario\Desktop\Entrega5-Calculadora-Impuestos`
+
+    Aqui como se explica en el video copia la direccion o ruta en donde guarde el repositorio clonado
 
 4. Ejecuta el siguiente comando para iniciar el programa: 
 
